@@ -70,7 +70,7 @@ public class KWLinkedList<E> extends AbstractSequentialList<E> implements Iterab
     }
 
     public void removeAllOf(String target) {
-        Iterator it = this.iterator();
+        Iterator it = iterator();
         while (it.hasNext()){
            String item = (String) it.next();
            if (target.equalsIgnoreCase(item)){
