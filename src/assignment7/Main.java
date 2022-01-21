@@ -19,8 +19,7 @@ public class Main {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                System.out.println("Serving: " + customer.poll() + "\n");
-               // System.out.println(customer);
+                System.out.println("Currently Serving: " + customer.poll() +"          Next Customers :"+customer+ "\n");
                 if (customer.getSize() == 0) {
                     timer.cancel();
                 }
