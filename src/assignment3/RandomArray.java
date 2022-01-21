@@ -9,7 +9,7 @@ public class RandomArray {
     //private int size = 0;
     public void insert() {
         Random rand = new Random();
-        arr = new int[50];
+        arr = new int[arr.length];
         for (int i = 0; i < 50; i++) {
             arr[i] = rand.nextInt(100 + 1);
         }

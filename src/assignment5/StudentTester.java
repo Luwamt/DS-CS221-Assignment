@@ -14,7 +14,9 @@ public class StudentTester {
         Student std4 = new Student(114, "Fili", 49202);
         Student std5 = new Student(115, "Abel", 1356);
         Student std6 = new Student(116, "John", 9526);
-        Student std7 = new Student(118, "Tsegai", 4526);
+        Student std7 = new Student(118, "assegai", 4526);
+        Student std9 = new Student(118, "absegai", 455);
+        Student std10 = new Student(118, "Tsegai", 605);
 
 
         ArrayList<Student> students = new ArrayList<>();
@@ -27,11 +29,13 @@ public class StudentTester {
         students.add(std6);
         students.add(std7);
         students.add(std8);
+        students.add(std9);
+        students.add(std10);
 
                 System.out.println(std8.equals(std2));
                 System.out.println(std1.equals(std7));
 
-                System.out.println("~~~~~~~~~~~~~~Compare two students by name and id ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                System.out.println("~~~~~~~~~~~~~~Compare two students by name and id  and sCORE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 Collections.sort(students, new StudentComparator());
                 for (Student std : students) {
                     System.out.println(std);
