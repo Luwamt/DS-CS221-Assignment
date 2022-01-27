@@ -441,8 +441,8 @@ public class BinarySearchTree<E extends Comparable<E>>
 
     /**
      * Assignment - 9......
-     * <p>
-     * void preOrder(){ }
+     *
+     * a. void preOrder(){ }
      * b. Implement the code for void postOrder(){ }
      * c. Implement the code to count the leaf nodes int leafCount(){}
      */
